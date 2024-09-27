@@ -1,14 +1,46 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-@media only screen and (max-width: 350px
-.body {
-  background-color: rgb(118, 168, 25);
-}
-/* Global Resets */
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
 }
 
+.profile-image {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
 
+.profile-image img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 2px solid #24073f;
+  object-fit: cover;
+}
 
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding: 10px;
+  color: white;
+}
+
+.html { width: 90%; background-color: #04AA6D; }
+.css { width: 80%; background-color: #2196F3; }
+.js { width: 65%; background-color: #f44336; }
+.php { width: 60%; background-color: #808080; }
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
